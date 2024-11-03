@@ -10,6 +10,10 @@ export default defineNuxtConfig({
     description: 'Welcome to my awesome site!',
     defaultLocale: 'en', // not needed if you have @nuxtjs/i18n installed
   },
+  runtimeConfig: {
+    ghostUrl: process.env.GHOST_URL,
+    ghostKey: process.env.GHOST_CONTENT_KEY,
+  },
   gtag: {
     id: 'G-XXXXXXXXXX'
   },
