@@ -11,7 +11,7 @@ const { data: posts, pending, error } = useFetch("/api/posts");
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
           modi. Maxime explicabo neque odio facilis.
         </p>
-        <nuxt-link to="/contact" class="hire">Hire me</nuxt-link>
+        <nuxt-link to="/contact" class="hire">Contact</nuxt-link>
       </div>
     </div>
 

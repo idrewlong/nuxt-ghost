@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-XXXXXXXXXX'
   },
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   css: ['~/assets/scss/main.scss'],
   image: {
     format: ['webp'],

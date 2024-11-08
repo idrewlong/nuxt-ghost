@@ -11,8 +11,6 @@
     <!-- Internal Link -->
     <NuxtLink to="/" rel="next" class="text-black no-underline">Home</NuxtLink>
     <!-- External Link -->
-    <NuxtLink to="/" rel="external" class="text-black no-underline"
-      >Other</NuxtLink
-    >
+    <NuxtLink to="/about" class="text-black no-underline">About</NuxtLink>
   </div>
 </template>
